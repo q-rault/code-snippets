@@ -3,7 +3,7 @@ import { computed, ref, watch } from 'vue';
 import { useRoute } from 'vue-router';
 import { storeToRefs } from 'pinia';
 
-import { useAppRunApi } from '@/composables/api';
+import { useAppRunApi } from '@/composables/useAppRunApi.ts';
 import router from '@/router';
 import { useAppStore } from '@/store';
 import { Permission } from '@/types/Permission';
